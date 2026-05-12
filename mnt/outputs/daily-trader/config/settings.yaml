@@ -1,0 +1,39 @@
+# ============================================================
+# settings.yaml
+# 🟢 DAD'S FILE — edit the values marked with 👈
+# ============================================================
+
+# --- Schedule ---
+# What time should the app run each morning?
+# Format: "HH:MM" in 24-hour time
+# Examples: "07:30" = 7:30 AM, "08:00" = 8:00 AM
+schedule:
+  run_at: "07:30"   # 👈 Change this to your preferred morning time
+
+# --- Phone Numbers ---
+# Who should receive the daily SMS?
+# Format: international format with country code, no spaces
+# US example:  "+14155552671"
+# UK example:  "+447700900123"
+notifications:
+  recipients:
+    - "+1XXXXXXXXXX"   # 👈 Replace with your mobile number
+    - "+1XXXXXXXXXX"   # 👈 Replace with your daughter's mobile number
+
+# --- Signal Thresholds ---
+# These control when a signal is considered "oversold" or "overbought"
+# You can leave these at the classic defaults to start
+signals:
+  rsi_oversold_threshold: 30    # 👈 RSI below this = oversold (possible buy signal)
+  rsi_overbought_threshold: 70  # 👈 RSI above this = overbought (possible sell signal)
+  #
+  # Standard values are 30 and 70.
+  # To get more signals, lower the oversold threshold (e.g. 35)
+  # and raise the overbought threshold (e.g. 65).
+
+# --- Advice Style ---
+# These are passed to the AI to shape the tone of advice
+advice:
+  risk_profile: "moderate"   # 👈 Options: "conservative", "moderate", "aggressive"
+  horizon: "medium-term"     # 👈 Options: "short-term" (days), "medium-term" (weeks/months), "long-term" (years)
+  portfolio_size: "small"    # 👈 Options: "small" (<$10k), "medium" ($10k-$100k), "large" (>$100k)

@@ -1,0 +1,41 @@
+# ============================================================
+# watchlist.yaml
+# 🟢 DAD'S FILE — edit this!
+# ============================================================
+#
+# Add or remove tickers (stock/ETF codes) below.
+# These are the stocks the app will analyse every morning.
+#
+# How to find a ticker:
+#   - Go to finance.yahoo.com
+#   - Search for a company or fund
+#   - The ticker is shown in bold at the top (e.g. AAPL, MSFT, AMZN)
+#
+# Tips:
+#   - Keep the list to 5–15 tickers for a manageable daily briefing
+#   - ETFs (like SPY, QQQ) give you broad market signals
+#   - Individual stocks let you track companies you believe in
+#
+# ============================================================
+
+tickers:
+  # --- Broad Market ETFs (good starting points) ---
+  - SPY     # S&P 500 — tracks the 500 largest US companies
+  - QQQ     # Nasdaq 100 — heavy on tech stocks
+  - DIA     # Dow Jones Industrial Average
+
+  # --- Technology ---
+  - AAPL    # Apple
+  - MSFT    # Microsoft
+  - NVDA    # Nvidia (AI chips)
+  - GOOGL   # Alphabet (Google)
+
+  # --- Other sectors (feel free to replace these) ---
+  - JPM     # JPMorgan Chase (finance)
+  - JNJ     # Johnson & Johnson (healthcare)
+  - BRK-B   # Berkshire Hathaway (Warren Buffett's fund)
+
+# ============================================================
+# To add a ticker: add a new line like "  - TSLA  # Tesla"
+# To remove one:  delete the line or put a # in front of it
+# ============================================================

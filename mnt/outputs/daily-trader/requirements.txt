@@ -1,0 +1,13 @@
+# Python dependencies for Daily Trader
+# Install with: pip install -r requirements.txt
+
+yfinance>=0.2.36          # Free stock price data from Yahoo Finance
+pandas>=2.0.0             # Data manipulation and analysis
+ta>=0.11.0                # Technical analysis indicators (RSI, MACD, etc.)
+anthropic>=0.25.0         # Claude AI API client
+twilio>=8.0.0             # SMS notifications
+python-dotenv>=1.0.0      # Load secrets from .env file
+schedule>=1.2.0           # Simple Python job scheduler
+pyyaml>=6.0               # Read YAML config files
+fastapi>=0.110.0          # Web API for the mobile app (Phase 6)
+uvicorn>=0.27.0           # Web server for FastAPI
