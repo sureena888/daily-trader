@@ -25,6 +25,7 @@ tickers:
   - DIA     # Dow Jones Industrial Average
 
   # --- Technology ---
+  - INTC    # Intel
   - AAPL    # Apple
   - MSFT    # Microsoft
   - NVDA    # Nvidia (AI chips)
