@@ -63,5 +63,6 @@ if __name__ == "__main__":
 
     print(f"\nDone! Fetched data for {len(data)} tickers.")
     for ticker, df in data.items():
-        latest = df["Close"].iloc[-1]
-        print(f"  {ticker}: latest close = ${latest:.2f}")
+        close_data = df["Close"]
+        latest = close_data.iloc[-1, 0] if getattr(close_data, "ndim", 1) == 2 else close_data.iloc[-1]
+        print(f"  {ticker}: latest close = ${float(latest):.2f}")
