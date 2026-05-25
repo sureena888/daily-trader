@@ -25,6 +25,8 @@ tickers:
   - DIA     # Dow Jones Industrial Average
 
   # --- Technology ---
+  - AMD     # Advanced Micro Devices
+  - MU      # Micron Technology
   - INTC    # Intel
   - AAPL    # Apple
   - MSFT    # Microsoft
